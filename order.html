@@ -14,6 +14,7 @@
 </head>
 
 <body>
+
     <div id="map"></div>
 
     <header class="header">
@@ -26,12 +27,16 @@
             <a class="header-link" href="./track.html">Отследить <span>посылку</span></a>
         </nav>
     </header>
+
     <aside class="main" id="sidebar">
+
         <div class="main-header">
             <div class="main-title">Оформление доставки</div>
             <div class="main-text">Выберите параметры для расчета отправления</div>
         </div>
+
         <div class="main-content">
+
             <div class="main-route">
                 <div class="main-block-title">Маршрут</div>
                 <div class="main-fields">
@@ -119,9 +124,27 @@
                     </div>
                 </div>
             </div>
+
+            <div class="main-speed">
+                <div class="main-block-title">Скорость доставки</div>
+
+                <div class="main-speeds">
+                    <div class="main-speed-card is-active" data-value="regular">
+                        <img class="main-speed-media" src="images/icons/regular.svg" alt="Regular" />
+                        <div class="main-speed-description">Обычная</div>
+                    </div>
+                    <div class="main-speed-card" data-value="fast">
+                        <img class="main-speed-media" src="images/icons/fast.svg" alt="Fast" />
+                        <div class="main-speed-description">Приоритетная</div>
+                    </div>
+
+                </div>
+            </div>
+
             <div class="main-calculate-block">
                 <button id="calc" class="button calculate-button" type="button" disabled>Рассчитать</button>
             </div>
+
             <div class="main-result" id="result">
                 <div class="main-result-title">Расчеты вашего заказа</div>
                 <div class="main-result-lines">
@@ -134,6 +157,7 @@
                     <div class="main-price-value" id="totalValue">—</div>
                 </div>
             </div>
+
             <div class="main-order-box">
                 <div class="main-order-form" id="orderForm">
                     <div class="main-order-title">Оформление доставки</div>
@@ -169,7 +193,9 @@
             </div>
 
         </div>
+
     </aside>
+
 </body>
 
 </html>
